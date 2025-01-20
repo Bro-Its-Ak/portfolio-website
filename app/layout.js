@@ -23,20 +23,23 @@ export default function RootLayout({ children }) {
       
 <Script async src="https://www.googletagmanager.com/gtag/js?id=G-8VNNEL0W2T"/>
 <Script
-  dangerouslySetInnerHTML={
-    __html=`window.dataLayer = window.dataLayer || [];
+id="google-analytics"
+dangerouslySetInnerHTML={{
+    __html:`window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-8VNNEL0W2T');`
-  }
+  }}
 />
       </head>
       <body
         className={`antialiased`}
         suppressHydrationWarning={true}
       >
-        {children}
+        <CopilotKit runtimeUrl="/api/copilotkit"> 
+            {children}
+          </CopilotKit>
         
       </body>
     </html>
