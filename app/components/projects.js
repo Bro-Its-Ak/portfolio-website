@@ -4,16 +4,16 @@ import { v4 } from 'uuid'
 
 const projects = () => {
   const [allprojects, setallprojects] = useState([
-    { name: "Netflix Clone", from: "23jan", to: "26jan", link: "https://netflixclonebyyash.vercel.app/", imgname: "netflix.jpg" },
-    { name: "Twitter Clone", from: "23jan", to: "26jan", link: "https://twitterclonebyyash.vercel.app", imgname: "twitter.jpg" },
-    { name: "Spotify Clone", from: "23jan", to: "26jan", link: "https://spotifywithyash.freewebhostmost.com/", imgname: "spotify.jpg" },
-    { name: "Todo Maker", from: "23jan", to: "26jan", link: "https://itaskmanagerbyyash.vercel.app/", imgname: "itask.jpg" },
-    { name: "Password Manager", from: "23jan", to: "26jan", link: "https://manageropbyyash.vercel.app/", imgname: "managerop.jpg" },
-    { name: "GetmeaChai Website", from: "23jan", to: "26jan", link: "https://getmeachaibyyash.vercel.app/", imgname: "getmeachai.jpg" },
-    { name: "Marketwise", from: "23jan", to: "26jan", link: "https://marketwisewithyash.vercel.app/", imgname: "marketwise.jpg" },
-    { name: "Burek Restaurant Website", from: "23jan", to: "26jan", link: "https://burekrestaurantbyyash.vercel.app/", imgname: "burek.jpg" },
-    { name: "Linkify Website", from: "23jan", to: "26jan", link: "https://linkify-black.vercel.app/", imgname: "linkify.jpg" },
-    { name: "Bittree - become known", from: "23jan", to: "26jan", link: "https://bittreebyyash.vercel.app/", imgname: "bittree.jpg" },
+    { name: "Netflix Clone", from: "23Jan", to: "25Jan", link: "https://netflixclonebyyash.vercel.app/", imgname: "netflix.jpg" },
+    { name: "Twitter Clone", from: "14Feb", to: "23Feb", link: "https://twitterclonebyyash.vercel.app", imgname: "twitter.jpg" },
+    { name: "Spotify Clone", from: "30Mar", to: "6Mar", link: "https://spotifywithyash.freewebhostmost.com/", imgname: "spotify.jpg" },
+    { name: "Todo Maker", from: "11Apr", to: "13Apr", link: "https://itaskmanagerbyyash.vercel.app/", imgname: "itask.jpg" },
+    { name: "Password Manager", from: "16Apr", to: "20Apr", link: "https://manageropbyyash.vercel.app/", imgname: "managerop.jpg" },
+    { name: "GetmeaChai Website", from: "1May", to: "8May", link: "https://getmeachaibyyash.vercel.app/", imgname: "getmeachai.jpg" },
+    { name: "Marketwise", from: "11May", to: "20May", link: "https://marketwisewithyash.vercel.app/", imgname: "marketwise.jpg" },
+    { name: "Burek Restaurant Website", from: "7Jul", to: "27Jul", link: "https://burekrestaurantbyyash.vercel.app/", imgname: "burek.jpg" },
+    { name: "Linkify Website", from: "22Sep", to: "30Sep", link: "https://linkify-black.vercel.app/", imgname: "linkify.jpg" },
+    { name: "Bittree - become known", from: "20Oct", to: "2Oct", link: "https://bittreebyyash.vercel.app/", imgname: "bittree.jpg" },
   ])
 
   const [reviews, setreviews] = useState([
@@ -33,7 +33,7 @@ const projects = () => {
     <section id='projects' className='bg-black py-28 max-[550px]:py-20 px-[9%] max-[800px]:px-[5%] max-[985px]:px-[10%] max-[1050px]:px-[6%]'>
       <div className='text-white gap-4 w-2/3 max-[800px]:w-full max-[1050px]:w-[88%] max-[550px]:w-auto tracking-tight flex flex-col items-start'>
         <h1 className='text-[#55e6a5] betaheading text-xl font-medium uppercase'>MY projects</h1>
-        <h1 className='text-white betaheading max-[375px]:text-[26px] text-start max-[375px]:text-[26px] max-[550px]:text-[28px] font-semibold text-[38px]'>Showcasing my hosted projects, crafted with responsiveness in mind</h1>
+        <h1 className='text-white betaheading text-start max-[375px]:text-[26px] max-[550px]:text-[28px] font-semibold text-[38px]'>Showcasing my hosted projects, crafted with responsiveness in mind</h1>
       </div>
 
       {allprojects && <div className='flex relative gap-8 max-[550px]:gap-10 max-[750px]:flex-col gap-y-10 flex-wrap my-16'>

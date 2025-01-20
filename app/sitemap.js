@@ -1,22 +1,16 @@
 export default function sitemap() {
     return [
       {
-        url: 'https://acme.com',
-        lastModified: new Date(),
-        changeFrequency: 'yearly',
-        priority: 1,
+        url: `${process.env.NEXT_PUBLIC_URL}`,
       },
       {
-        url: 'https://acme.com/about',
-        lastModified: new Date(),
-        changeFrequency: 'monthly',
-        priority: 0.8,
+        url: `${process.env.NEXT_PUBLIC_URL}/portfolio`,
       },
       {
-        url: 'https://acme.com/blog',
-        lastModified: new Date(),
-        changeFrequency: 'weekly',
-        priority: 0.5,
+        url: `${process.env.NEXT_PUBLIC_URL}/bittree`,
+      },
+      {
+        url: `${process.env.NEXT_PUBLIC_URL}/advanced-bittree`,
       },
     ]
   }

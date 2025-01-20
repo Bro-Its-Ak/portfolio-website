@@ -102,7 +102,7 @@ const about = ({orionsubmita}) => {
                     <div onClick={()=>document.getElementById("projects").scrollIntoView({behavior:"smooth",block:'start'})} className='flex flex-col gap-4  sideslider border-[3px]  relative p-6 pt-20 justify-center items-center border-[#191919]'>
                         <img className='w-24 absolute top-[-48px]' src="svgs/webdev.svg" alt="" />
                         <h2 className='text-xl font-medium'>Website Development</h2>
-                        <p className='text-center font-medium text-[#b2b2b2] text-base leading-7'>I can develop the code for user interaction of the website that works smoothly on the backend with database and logic with the effective use of APIs to connect the frontend and backend.</p>
+                        <p className='text-center font-medium text-[#b2b2b2] text-base leading-7'>I can develop the code for user interaction of the website that works smoothly on the backend with database and logic with the effective use of Artificial Intelligence(AI) and APIs to connect the frontend and backend.</p>
                     </div>
                     </div>
                     <div className='max-[750px]:w-full hover:scale-90 w-1/3 cursor-pointer transition-transform max-[985px]:w-[calc(50%-12px)] '>
@@ -151,7 +151,7 @@ const about = ({orionsubmita}) => {
 
                 <div className='w-1/2 max-[985px]:w-full my-20 max-[985px]:mb-0'>
                     <h1 className='font-semibold leftsidefade text-[60px] max-[550px]:text-[45px] max-[375px]:text-[40px] max-[375px]:leading-[55px] leading-[70px]'><span className='text-[90px] max-[550px]:text-[65px] max-[375px]:text-[60px] font-bold'>Design</span> and Innovation</h1>
-                    <p className='text-[#b2b2b2] my-11 mt-10 leading-7'>I started by learning the basics from various online courses and created projects based on what I learned. Additionally, I worked on side projects that helped me improve my skills and enhance my knowledge by using tools that are essential for creating innovative and modern websites.</p>
+                    <p className='text-[#b2b2b2] my-11 mt-10 leading-7'>I started by learning the basics from various online courses and created projects based on what I learned. Additionally, I worked on side projects that helped me improve my skills and enhance my knowledge by using AI tools that are essential for creating innovative and modern websites.</p>
                     <div className='flex gap-6 max-[550px]:flex-col'>
                         <div className='bg-[#09101A] sideslider2 max-[985px]:py-12 py-8 flex flex-col  items-center justify-center w-full'>
                             <img className='w-20' src="svgs/projects.svg" alt="projects" />
