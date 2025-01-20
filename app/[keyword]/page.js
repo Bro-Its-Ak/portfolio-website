@@ -80,6 +80,7 @@ font-weight: 500;
   }));
 }
 
+
 // Generate dynamic metadata based on params
 export async function generateMetadata({ params }) {
   // Await params to make sure you're correctly retrieving it in latest Next.js
@@ -94,7 +95,7 @@ export async function generateMetadata({ params }) {
   const curblog = blogs.find(item => item.keyword === keyword);
   if (curblog) {
     return {
-      title: `${curblog.title}`,
+      title: `${curblog.title} - Yash Dwivedi | Portfolio Website`,
       description: `Hey, you are reading about ${curblog.title}, keep it up!`,
     };
   }

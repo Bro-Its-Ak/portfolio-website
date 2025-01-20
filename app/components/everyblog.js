@@ -1,6 +1,5 @@
 "use client"
 import React, { useEffect } from 'react'
-import { useState } from 'react'
 import Navbar from '../components/navbar'
 import Threedot from '../components/threedot'
 import Contact from '../components/contact'
