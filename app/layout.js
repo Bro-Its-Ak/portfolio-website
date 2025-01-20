@@ -4,17 +4,12 @@ import Script from 'next/script';
 
 export const metadata = {
   title: "Yash Dwivedi | Developer & Designer Portfolio",
-  keywords:"Yash,Full Stack Developer, AI, Web Development, Portfolio Website, Innovative Design, Showcasing Projects, AI tools, User friendly interface, Responsive Design, Buisness Growth",
+  keywords:"Yash,creating yash,Full Stack Developer, AI, Web Development, Portfolio Website, Innovative Design, Showcasing Projects, AI tools, User friendly interface, Responsive Design, Buisness Growth",
   description: "Welcome to Yash Dwivedi’s portfolio! As a Full Stack Web Developer, I create dynamic, scalable websites that incorporate Artificial Intelligence(AI). My focus is on delivering engaging user experiences. Explore my work and see how I bring ideas to life!",
   twitter: {
     card: "summary_large_image"
   },
-  openGraph: {
-    title: 'Yash Dwivedi | Web Developer & Designer Portfolio',
-    images: [
-      `${process.env.NEXT_PUBLIC_URL}/opengraph-image.jpg`
-    ]
-  },
+  
 };
 
 export default function RootLayout({ children }) {

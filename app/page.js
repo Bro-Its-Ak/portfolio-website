@@ -37,7 +37,6 @@ export default function Home() {
 
    let a = await fetch("/newcontact", requestOptions)
    let response = await a.json()
-   console.log(response)
    if(response.error == false){if (iziToast) {
     iziToast.success({
         title: "Success",
@@ -56,7 +55,6 @@ if (iziToast) {
   console.error("iziToast is not loaded.");
 }
 }
-        console.log(data)
 }
   return (
     <main className="relative overflow-x-hidden bg-white">

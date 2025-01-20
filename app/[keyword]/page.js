@@ -97,7 +97,7 @@ export async function generateMetadata({ params }) {
     return {
       title: `${curblog.title} - Yash Dwivedi | Portfolio Website`,
       description: `Hey, you are reading about ${curblog.title}, keep it up!`,
-      keywords:"Blog, linktree, artificial intelligence features, AI tools, Yash,Full Stack Developer, AI, Web Development, Portfolio Website,copilotkit, modern website, responsive design",
+      keywords:"Blog, linktree, artificial intelligence, AI tools, Yash,Full Stack Developer, AI, Web Development, Portfolio Website, modern website, responsive design",
     };
   }
   else {

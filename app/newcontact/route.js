@@ -3,7 +3,6 @@ import clientpromise from "../lib/clientpromise";
 
 export async function POST(req) {
     try{let data = await req.json()
-        console.log(data)
    let client = await clientpromise
    let database =  client.db()
    let collection = database.collection("contacts")

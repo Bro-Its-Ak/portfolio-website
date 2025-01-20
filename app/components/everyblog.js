@@ -68,14 +68,14 @@ const everyblog = ({currblog}) => {
             <Navbar/>
             <div className="blackscreen absolute w-full opacity-0 transition-opacity z-[-10] bg-black/50 h-full top-0 left-0 "></div>
             <Threedot/>
-            <div className='py-[140px] pt-[200px] mx-auto px-[10%] max-[900px]:5xl text-6xl font-bold bg-[#09101A]'>
+            <div className='py-[140px] max-[550px]:text-4xl max-[550px]:pb-[60px] max-[550px]:pt-[120px] max-[900px]:pb-[100px] max-[1000px]:pt-[160px] pt-[200px] mx-auto px-[10%]  max-[900px]:text-5xl text-6xl font-bold bg-[#09101A]'>
             {currblog.title}
             </div>
-            <div className="content w-[65%] mx-auto bg-black py-20">
+            <div className="content w-[65%] max-[1000px]:w-[80%] max-[550px]:w-[90%] mx-auto bg-black py-20">
                 <img src="https://codeefly.net/wp/zyan/wp-content/uploads/2023/10/list_2.jpg" alt="introimg" />
-                <div className='flex gap-6 my-5 relative'>
-    <div className="comments text-[#b2b2b2] justify-center flex gap-2 font-semibold text-lg"><img className='w-6' src="svgs/comments.svg" alt="comment" />Comments ({currblog.no_of_comment})</div>
-    <div className="comments text-[#b2b2b2] justify-center text-lg flex gap-2 font-semibold"><img className='w-6' src="svgs/clock.svg" alt="time" />{currblog.date}</div>
+                <div className='flex gap-6 max-[550px]:justify-between my-5 relative'>
+    <div className="comments text-[#b2b2b2] justify-center max-[550px]:text-base flex gap-2 font-semibold text-lg"><img className='w-6' src="svgs/comments.svg" alt="comment" />Comments ({currblog.no_of_comment})</div>
+    <div className="comments text-[#b2b2b2] justify-center text-lg flex max-[550px]:text-base gap-2 font-semibold"><img className='w-6' src="svgs/clock.svg" alt="time" />{currblog.date}</div>
     </div>
     <div className=''
     dangerouslySetInnerHTML={{ __html: currblog.content }}
