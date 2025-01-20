@@ -9,7 +9,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image"
   },
-  
+  openGraph:{
+    image:[`${process.env.NEXT_PUBLIC_URL}/opengraph-image.jpg`]
+  }
 };
 
 export default function RootLayout({ children }) {
