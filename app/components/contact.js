@@ -46,7 +46,7 @@ router.push("/")
                     </div>
                     <button disabled={isSubmitting} type='submit' className='bg-[#55E6A5] topbtn p-[22px] px-9 text-base gap-2 flex items-center w-fit text-black font-medium'>{isSubmitting ? "Loading..." : "Submit now!!"}</button>
                 </form>
-                <iframe title='my-address' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.0410426881613!2d77.68986347458566!3d28.94603766977671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c6479201286d3%3A0x849c92d97bc60d3e!2sSaraswati%20Lok%2C%20Meerut%2C%20Uttar%20Pradesh%20250002!5e1!3m2!1sen!2sin!4v1736695649051!5m2!1sen!2sin" className='w-[40.5%] max-[985px]:w-full leftsidefade' width="600" height="665" style={{ border: 0 }} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title='my-address' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93212.06870141659!2d77.6165579578527!3d28.987387246970687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c64f457b66325%3A0x42faa83387a6be5e!2sMeerut%2C%20Uttar%20Pradesh!5e1!3m2!1sen!2sin!4v1737396359573!5m2!1sen!2sin" width="600" className='w-[40.5%] max-[985px]:w-full leftsidefade' height="665" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className='w-full relative max-[550px]:pb-10 flex items-center justify-center gap-7 flex-col mainishere h-[420px]  bg-transparent my-28 mb-14'>
                 <h1 className='text-[30px] betaheading max-[375px]:text-[26px] max-[550px]:text-[26px] z-20 text-center font-semibold uppercase'>Be the First to Know</h1>
@@ -69,7 +69,7 @@ router.push("/")
                     </div>
                     <div className='flex flex-col gap-3 w-[230px] max-[1050px]:w-full'>
                         <h1 className='text-xl font-semibold'>Address</h1>
-                        <p className='text-[#b2b2b2]'>F - 110, Saraswati Lok, Meerut, Uttar Pradesh 250002</p>
+                        <p className='text-[#b2b2b2]'>Meerut, Uttar Pradesh 250002</p>
                     </div>
                 </div>
                 <div className='flex sideslider gap-5 w-fit max-[1050px]:w-full items-start'>
