@@ -37,9 +37,7 @@ dangerouslySetInnerHTML={{
         className={`antialiased`}
         suppressHydrationWarning={true}
       >
-        <CopilotKit runtimeUrl="/api/copilotkit"> 
             {children}
-          </CopilotKit>
         
       </body>
     </html>
