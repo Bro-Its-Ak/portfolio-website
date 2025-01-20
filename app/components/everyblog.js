@@ -68,7 +68,7 @@ const everyblog = ({currblog}) => {
             <Navbar/>
             <div className="blackscreen absolute w-full opacity-0 transition-opacity z-[-10] bg-black/50 h-full top-0 left-0 "></div>
             <Threedot/>
-            <div className='py-[140px] pt-[200px] mx-auto px-[10%] text-6xl font-bold bg-[#09101A]'>
+            <div className='py-[140px] pt-[200px] mx-auto px-[10%] max-[900px]:5xl text-6xl font-bold bg-[#09101A]'>
             {currblog.title}
             </div>
             <div className="content w-[65%] mx-auto bg-black py-20">
