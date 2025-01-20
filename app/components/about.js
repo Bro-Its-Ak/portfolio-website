@@ -133,7 +133,7 @@ const about = ({orionsubmita}) => {
                 <div className='w-[50%] relative rightslider max-[985px]:w-full'>
                     <div className='aboutimage relative w-fit'>
 
-                        <img className='pt-[20px] pr-[20px] relative z-40' src="images/about_img.jpg" alt="" />
+                        <img className='pt-[20px] pr-[20px] relative z-40' src="images/jjk.png" alt="" />
                         <div className='bg-[#232323] absolute z-50 bottom-[-11%] gap-4 flex items-center left-[10%]  p-4 w-[75%] '>
                             <div className='bg-[#323232] p-3 rounded-full h-fit'>
                                 <img className=' bg-[#b2b2b2] w-20 rounded-full' src="images/pie.gif" alt="" />

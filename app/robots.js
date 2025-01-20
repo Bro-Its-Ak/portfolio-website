@@ -7,6 +7,6 @@ export default function robots(){
                 disallow:["/testingpage"]
             }
         ],
-        sitemap:`${process.env.NEXT_PUBLIC_URL}`
+        sitemap:`${process.env.NEXT_PUBLIC_URL}/sitemap.xml`
     }
 }

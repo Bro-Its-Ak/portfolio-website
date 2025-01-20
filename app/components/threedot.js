@@ -36,7 +36,7 @@ const threedot = ({orionsubmita}) => {
 
 <div className='space-y-5'>
   <h1 className='text-white uppercase font-semibold text-xl'>About me</h1>
-  <p className='text-[#b2b2b2] font-medium leading-7'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis tempora nostrum possimus adipisci voluptas perferendis consectetur. Ad hic quisquam unde.</p>
+  <p className='text-[#b2b2b2] font-medium leading-7'>I'm Yash Dwivedi, a full-stack web developer who began my journey in late 2023. I've gained the skills to create innovative websites that drive business growth and enhance online presence.</p>
 </div>
 
 <form onSubmit={handleSubmit(orionsubmita)} className='flex flex-col gap-8'>

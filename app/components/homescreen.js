@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const homescreen = () => {
   return (
-    <section id='home' className='flex gap-20 px-[9%] max-[800px]:px-[5%] max-[985px]:px-[10%] max-[1050px]:px-[6%] h-auto relative mx-auto pt-[80px]'>
+    <section id='home' className='flex gap-6 px-[9%] max-[800px]:px-[5%] max-[985px]:px-[10%] max-[1050px]:px-[6%] h-auto relative mx-auto pt-[80px]'>
         <div className='w-[56.7%] my-14 relative z-10 max-[985px]:w-full flex flex-col gap-8'>
             <div className='text-[50px] leading-[60px] font-bold max-[550px]:text-[45px]'>
             <h1>HI, I'M YASH!</h1>
@@ -21,8 +21,8 @@ const homescreen = () => {
             </div>
         </div>
 
-        <div className='p-9 profile-pic w-[43.3%] max-[985px]:hidden relative z-10 my-8 max-[1050px]:flex max-[1050px]:items-center max-[1050px]:after:top-[16%]'>
-            <img className='relative z-10 w-[25rem] max-w-full' alt="prof" src="images/profile.png" />
+        <div className='p-9 profile-pic w-[48%] max-[985px]:hidden relative z-10 my-8 max-[1050px]:flex max-[1050px]:items-center max-[1050px]:after:top-[16%]'>
+            <img className='relative z-10 w-[26rem] max-w-full' alt="prof" src="images/profile.png" />
         </div>
         <div className='home-background'></div>
     </section>

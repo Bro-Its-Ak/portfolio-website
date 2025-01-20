@@ -181,9 +181,8 @@ const Page = async ({ params }) => {
 <p>Future enhancements may include deeper AI integration, advanced analytics powered by artificial intelligence, and even more customization options for users. If you’re looking for a developer skilled in **HTML**, **CSS**, **Tailwind CSS**, **JavaScript**, **React.js**, **Next.js**, **Node.js**, **MongoDB**, **Mongoose**, and AI integrations, I’d love to hear from you. Let’s collaborate to create innovative solutions together. Your feedback and support are always appreciated!</p>
 
 </div>`},
-  ];
+  ]
 
-  // Find the blog based on the awaited keyword
   const curblog = blogs.find(item => item.keyword === keyword);
   if (!curblog) {
     return notFound();  // Handle the case when the blog is not found
