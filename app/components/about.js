@@ -127,7 +127,7 @@ const about = ({orionsubmita}) => {
                     <div className='my-24 before:w-full w-[92%] max-[985px]:mb-10 max-[985px]:mt-16 before:h-[2px] max-[985px]:before:hidden flex gap-4 items-start before:mt-[6px] before:block before:bg-[#b2b2b2]'>
                         <p className='text-base text-[#b2b2b2] '>I am Yash Dwivedi, a full-stack web developer who started his journey at the end of 2023 and gained a lot of knowledge that is enough to create innovative websites for scaling the growth of businesses and making their presence felt.</p>
                     </div>
-                    <a href='/myresume.pdf' className='bg-[#55E6A5] topbtn ml-[24%] max-[985px]:ml-0 p-[22px] px-9 text-base gap-2 flex items-center text-black font-medium'>Download CV <img className='w-6' src="svgs/download.svg" alt="" /></a>
+                    <a href='/myresume.pdf' className='bg-[#55E6A5] w-fit topbtn ml-[24%] max-[985px]:ml-0 p-[22px] px-9 text-base gap-2 flex items-center text-black font-medium'>Download CV <img className='w-6' src="svgs/download.svg" alt="" /></a>
                 </div>
 
                 <div className='w-[50%] relative rightslider max-[985px]:w-full'>
