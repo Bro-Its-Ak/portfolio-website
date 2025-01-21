@@ -55,6 +55,21 @@ if (iziToast) {
   console.error("iziToast is not loaded.");
 }
 }
+let allinputs = document.querySelectorAll("input")
+let alltextarea = document.querySelectorAll("textarea")
+
+if(allinputs){
+  allinputs.forEach((input)=>{
+    input.value = ""
+  })
+  
+}
+if(alltextarea){
+  alltextarea.forEach((textarea)=>{
+    textarea.value = ""
+  })
+  
+}
 }
   return (
     <main className="relative overflow-x-hidden bg-white">

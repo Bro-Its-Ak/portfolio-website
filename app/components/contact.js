@@ -20,6 +20,7 @@ const contact = ({ orionsubmita }) => {
     else{
 router.push("/")
     }
+
     }
     return (
         <section id='contact' className='bg-black scroll-m-36 max-[550px]:pt-20'>
@@ -69,7 +70,7 @@ router.push("/")
                     </div>
                     <div className='flex flex-col gap-3 w-[230px] max-[1050px]:w-full'>
                         <h1 className='text-xl font-semibold'>Address</h1>
-                        <p className='text-[#b2b2b2]'>Meerut, Uttar Pradesh 250002</p>
+                        <p className='text-[#b2b2b2]'>Meerut, Uttar Pradesh 250002, India</p>
                     </div>
                 </div>
                 <div className='flex sideslider gap-5 w-fit max-[1050px]:w-full items-start'>
