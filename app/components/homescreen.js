@@ -13,7 +13,7 @@ const homescreen = () => {
             <p className='text-[#b2b2b2] w-[95%] leading-7 font-medium'>I'm a dedicated and passionate full stack web developer focused on building websites that are both beautiful and functional with the use of AI. I love finding solutions to challenges and creating online experiences that are easy to use and enjoyable.</p>
 
             <div className='flex my-10 gap-8 max-[550px]:flex-wrap'>
-                <button className='bg-[#55E6A5] topbtn  p-[22px] px-9 text-base gap-2 flex items-center text-black font-medium'>Download CV <img className='w-6' src="svgs/download.svg" alt="" /></button>
+                <a href='/myresume.pdf' className='bg-[#55E6A5] topbtn  p-[22px] px-9 text-base gap-2 flex items-center text-black font-medium'>Download CV <img className='w-6' src="svgs/download.svg" alt="" /></a>
                 <button onClick={()=>{document.querySelector("#about").scrollIntoView({"behavior":'smooth',block:"start"})}} className='flex hover:text-[#55e6a5] transition-colors gap-2 items-center text-lg'>
                     <img className='w-14' src="svgs/play.svg" alt="play" />
                     Get Started
