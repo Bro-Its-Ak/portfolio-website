@@ -10,7 +10,7 @@ export const metadata = {
     card: "summary_large_image"
   },
   openGraph:{
-    image:`${process.env.NEXT_PUBLIC_URL}/opengraph-image.jpg`
+    images:[`${process.env.NEXT_PUBLIC_URL}/opengraph-image.jpg`]
   }
 };
 
